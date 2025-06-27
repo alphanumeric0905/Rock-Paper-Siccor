@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.choices{
+    height: 300px;
+    width: 500px;
+    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 50px;
+    
+}
+.choice img{
+    height: 100px;
+    width: 100x;
+    border-radius: 50%;
+    
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.msg-container{
+    margin-top: 100px;
+    background-color: aquamarine;
+    height: 50px;
+    font-size: 1rem;
+    
+   
+}
+
+.your-score{
+    font-size: 2rem;
+
+}
+.comp-score{
+    font-size: 2rem;
+}
+.choice:hover{
+    opacity: 0.5;
+}
+
